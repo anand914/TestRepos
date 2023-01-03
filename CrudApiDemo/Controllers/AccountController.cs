@@ -41,10 +41,8 @@ namespace CrudApiDemo.Controllers
             }
             catch (Exception ex)
             {
-
-                throw;
+                return NotFound(ex.Message);
             }
-
         }
 
         [HttpPost]
