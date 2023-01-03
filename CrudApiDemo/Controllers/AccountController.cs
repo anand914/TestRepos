@@ -28,7 +28,7 @@ namespace CrudApiDemo.Controllers
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
         }
         [HttpPost("welcome")]
